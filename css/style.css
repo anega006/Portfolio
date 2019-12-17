@@ -195,6 +195,7 @@ button:focus {
   color: black;
   font-size: 20px;
   margin-top: 50px;
+  text-align: justify;
 }
 
 #about-me-content > a {
@@ -696,6 +697,9 @@ background-color: #e6d019 !important;
 
 	#about > .container-fluid {
 		padding: 100px 30px 100px 30px;
+	}
+	#about-me-content {
+  		text-align: justify;
 	}
 	
 	#skills > .container-fluid {
