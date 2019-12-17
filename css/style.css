@@ -180,6 +180,7 @@ button:focus {
 
 #about > .container-fluid {
     padding: 100px 80px 100px 80px;
+    text-align: justify;
 }
 
 #about-me > .blockquote {
@@ -375,6 +376,7 @@ background-color: #e6d019 !important;
 
 #experience > .container-fluid {
     padding: 100px 80px 100px 80px;
+    text-align: justify;
 }
 
 #experience-me > .blockquote {
