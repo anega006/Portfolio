@@ -685,9 +685,9 @@ background-color: #e6d019 !important;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
-        .navbar-brand {
-                font-size: 25px !important;
-        }
+        #home-details > h1 {
+		font-size: 40px !important;
+	}
 
 	#about > .container-fluid {
 		padding: 100px 30px 100px 30px;
