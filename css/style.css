@@ -83,7 +83,7 @@ button:focus {
 }
 .navbar-brand {
   color: white !important;
-  font-size: 30px !important;
+  font-size: 33px !important;
   font-family: 'Kaushan Script' !important;
 }
 
@@ -685,6 +685,9 @@ background-color: #e6d019 !important;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+        .navbar-brand {
+                font-size: 25px !important;
+        }
 
 	#about > .container-fluid {
 		padding: 100px 30px 100px 30px;
