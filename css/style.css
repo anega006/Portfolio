@@ -146,6 +146,7 @@ button:focus {
 #home-details > h1 {
   color: white;
   font-family: 'Montserrat';
+  text-align: center;
   font-size: 55px !important;
 }
 
@@ -687,6 +688,7 @@ background-color: #e6d019 !important;
 	}
         #home-details > h1 {
 		font-size: 40px !important;
+		text-align: center;
 	}
 
 	#about > .container-fluid {
