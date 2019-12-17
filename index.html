@@ -28,7 +28,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" data-spy="scroll" data-target="#navScrollSpy">
 	<div class="spinner">
 		<div class="cube1"></div>
 		<div class="cube2"></div>
@@ -38,7 +38,7 @@
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-label="Toggle Navigation" aria-expanded="false">
 				<i class="sr-only">Toggle navigation</i>
 				<i class="icon-bar"></i>
 				<i class="icon-bar"></i>
@@ -49,7 +49,7 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right" id="navScrollSpy">
 				<li>
 					<a class="page-scroll" href="#about">ABOUT</a>
 				</li>
@@ -81,6 +81,7 @@
 	<!-- /.container-fluid -->
 	</nav>
 
+<!--HOME-->
 <section id = "home">
 	<div class = "container-fluid">
 		<div id = "home-details">
@@ -97,6 +98,7 @@
 	</div>
 </section>
 
+<!--ABOUT-->
 <section id = "about">
 	<div class = "container-fluid">
 		<div id = "about-me">
@@ -109,6 +111,7 @@
 	</div>
 </section>
 
+<!--SKILLS-->
 <section id = "skills">
 	<div class = "container-fluid">
 		<div class = "row" id = "skills-desc">
@@ -181,7 +184,6 @@
                     <div class="modal-body">
                         <h1>TOOLS</h1>
                         <p>PYCHARM</p>
-                        <p>BRACKETS</p>
 			<p>JUPYTER NOTEBOOK</p>
 			<p>BRACKETS</p>
                         <p>SUBLIME TEXT</p>
@@ -210,6 +212,7 @@
     </div>
 </div>
 
+<!--PROJECTS-->
 <section id="projects">
 	<div class="container-fluid">
 		<div class = "row" id = "projects-desc">
@@ -309,6 +312,7 @@ donations & child cases online</p>
     </div>
 </div>
 
+<!--EXPERIENCE-->
 <section id = "experience">
 	<div class = "container-fluid">
 		<div id = "experience-me">
@@ -321,15 +325,15 @@ donations & child cases online</p>
 			<b id = "experience-me-content">
 				<sup><i style = "color: #009678" class = "fa fa-quote-left"></i></sup>Throughout my Internship term at <a target = "_blank" href = "http://www.allgosystems.com/" style="color:#19bd9b;text-decoration:none;">Allgo Systems Private Limited (A Visteon Enterprise)</a>, one of my main responsibilities was to design and develop a camera based AI solution using deep learning techniques such as Convolutional Neural Networks.&nbsp; I also had the opportunity to work on face detection and expression recognition using OpenCV and Keras with TensorFlow backend.&nbsp; My role also included training the model with Infrared & RGB data and perform live testing.<br>Developing an emotion detection system for an autonomous vehicle includes the following phases:<br>
 <ol type="I">
-	<li>&nbsp;&nbsp;Data collection & relevant data generation</li>
-	<li>&nbsp;&nbsp;Data cleaning & data preparation</li>
-	<li>&nbsp;&nbsp;Data preprocessing & data labelling</li>
-	<li>&nbsp;&nbsp;Face detection & feature extraction</li>
-	<li>&nbsp;&nbsp;Training the classifier model</li>
-	<li>&nbsp;&nbsp;Evaluation of classifier output</li>
-	<li>&nbsp;&nbsp;Cross validation & testing</li>
-	<li>&nbsp;&nbsp;Prediction of new results using unseen data</li>
-	<li>&nbsp;&nbsp;Live Testing</li>
+	<li>&nbsp;Data collection & relevant data generation</li>
+	<li>&nbsp;Data cleaning & data preparation</li>
+	<li>&nbsp;Data preprocessing & data labelling</li>
+	<li>&nbsp;Face detection & feature extraction</li>
+	<li>&nbsp;Training the classifier model</li>
+	<li>&nbsp;Evaluation of classifier output</li>
+	<li>&nbsp;Cross validation & testing</li>
+	<li>&nbsp;Prediction of new results using unseen data</li>
+	<li>&nbsp;Live Testing</li>
 </ol>
 I communicated with the lead developer to give project updates.&nbsp; I was also exposed to the agile development process and validated features in an agile iterative manner.<sup><i style = "color: #009678" class = "fa fa-quote-right"></i></sup>
 			</b>
@@ -337,6 +341,7 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 	</div>
 </section>
 
+<!--CERTIFICATIONS-->
 <section id = "certifications">
 	<div class = "container-fluid">
 		<div class = "row" id = "certifications-desc">
@@ -393,11 +398,7 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 	</div>
 </section>
 
-
-
-
-
-
+<!--SOCIAL_GET CONNECTED-->
 <section id = "social">
 	<div class = "container-fluid">
 		<div class = "row" id = "social-desc">
@@ -431,6 +432,7 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 	</div>
 </section>
 
+<!--CONTACT-->
 <section id = "contact">
 	<div class = "container-fluid">
 		<div class = "row" id = "contact-desc">
@@ -458,6 +460,7 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 	</div>
 </section>
 
+<!--RESUME-->
 <section id = "resume">
 	<div class = "container-fluid">
 		<div class = "row" id = "resume-desc">
@@ -479,19 +482,32 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js"></script>
+    
     <script src="js/script.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
 </body>
+<script type="text/javascript">
+	$(function(){
+	var scroll = new SmoothScroll('a[href*="#"]');
+	});
+	var selectBody = $('body');
+	$('.navbar-collapse').on('show.bs.collapse', function () {
+	selectBody.css('padding-top', '235px');
+	})
+	$('.navbar-collapse').on('hide.bs.collapse', function () {
+	selectBody.css('padding-top', '50px');
+	})
+</script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-77850754-1', 'auto');
-  ga('send', 'pageview');
-
+	ga('create', 'UA-77850754-1', 'auto');
+	ga('send', 'pageview');
 </script>
 </html>
