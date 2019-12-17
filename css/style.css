@@ -697,6 +697,7 @@ background-color: #e6d019 !important;
 
 	#about > .container-fluid {
 		padding: 100px 30px 100px 30px;
+		text-align: justify;
 	}
 	
 	#skills > .container-fluid {
