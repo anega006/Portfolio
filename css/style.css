@@ -686,6 +686,9 @@ background-color: #e6d019 !important;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	.navbar-brand {
+		font-size: 24px !important;
+	}
         #home-details > h1 {
 		font-size: 40px !important;
 		text-align: center;
