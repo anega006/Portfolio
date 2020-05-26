@@ -144,6 +144,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <h1>AREAS</h1>
+			<p>DEEP LEARNING</p>
                         <p>DATA STRUCTURES</p>
                         <p>WEB DESIGN</p>
 			<p>WEB DEVELOPMENT</p>
@@ -183,6 +184,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <h1>TOOLS</h1>
+			<p>GOOGLE COLAB</p>
                         <p>PYCHARM</p>
 			<p>JUPYTER NOTEBOOK</p>
 			<p>BRACKETS</p>
@@ -202,6 +204,8 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <h1>FRAMEWORKS</h1>
+			<p>SCIKIT-LEARN</p>
+			<p>KERAS</p>
                         <p>BOOTSTRAP</p>
                         <p>DJANGO</p>
                         <button id = "close" type="button" class="btn btn-default btn-block" data-dismiss="modal"><strong>CLOSE</strong></button>
@@ -221,13 +225,16 @@
 			</div>
 		</div>
 		<div class="row" id = "projects-content">
-			<div id = "picture-container" class="col-sm-4" data-toggle="modal" data-target="#todoapp-modal">
+			<div id = "picture-container" class="col-sm-3" data-toggle="modal" data-target="#autoencoder-modal">
+			    <img id = "img" src="images/autoencoder.jpeg" class="img-responsive" alt="">
+			</div>
+			<div id = "picture-container" class="col-sm-3" data-toggle="modal" data-target="#todoapp-modal">
 			    <img id = "img" src="images/todo.jpg" class="img-responsive" alt="">
 			</div>
-			<div id = "picture-container" class="col-sm-4" data-toggle="modal" data-target="#childcareportal-modal" >
+			<div id = "picture-container" class="col-sm-3" data-toggle="modal" data-target="#childcareportal-modal" >
 			    <img id = "img" src="images/childcareportal.jpg" class="img-responsive" alt="">
 			</div>
-			<div id = "picture-container" class="col-sm-4" data-toggle="modal" data-target="#userauthapp-modal">
+			<div id = "picture-container" class="col-sm-3" data-toggle="modal" data-target="#userauthapp-modal">
 			    <img id = "img" src="images/userauth.png" class="img-responsive" alt="">
 			</div>
 		</div>
@@ -240,6 +247,35 @@
 </section>
 
 <!-- Modal for projects * -->
+<div class="portfolio-modal modal fade" id="autoencoder-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 style = "color: #374456;margin-bottom: 20px">AUTOENCODERS</h1>
+                        <hr style = "border-bottom: solid 3px #374456;width: 70%;margin-bottom: 20px"/>
+                        <p style = "margin-bottom: 30px;text-align: center; color: #424242; font-family: 'Montserrat';" id = "project-details">The project aims to implement image denoising, image reconstruction and reverse image
+search using autoencoders as a simpler version of neural networks.Django web framework is used for deploying deep learning models to a web app. The project combines deep learning skills with practical web development.</p>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Python</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Django</blockquote>
+		        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Keras</blockquote>
+			<blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Numpy</blockquote>
+			<blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Matplotlib</blockquote>
+			<blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">OpenCV</blockquote>
+			<blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Scikit-Learn</blockquote>
+ 			<blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">Html & Css</blockquote>
+                        <div class = "row">
+                          <a href = "https://github.com/anega006/Autoencoders" target = "_blank" ><button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-primary"><strong>GITHUB</strong></button></a>
+                          <button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-danger" data-dismiss="modal" ><strong>CLOSE</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	
 <div class="portfolio-modal modal fade" id="todoapp-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="container">
@@ -360,14 +396,14 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 							<p>IBM Data Science Specialization</p>
 						</div>
 					</a>
-					<a href="https://www.coursera.org/account/accomplishments/verify/KXR99QQPZPJX" target="_blank">
+					<a href="https://www.coursera.org/account/accomplishments/specialization/VU232YEUQYW6" target="_blank">
 						<div id = "c3" class = "col-12 col-sm-6 col-md-3">
-							<p>Natural Language Processing in TensorFlow</p>
+							<p>Introduction to Data Science Specialization</p>
 						</div>
 					</a>
-					<a href="https://www.coursera.org/account/accomplishments/verify/BM7M6ZLYXCMT" target="_blank">
+					<a href="https://www.coursera.org/account/accomplishments/verify/TPAQAF2WKJBS" target="_blank">
 						<div id = "c4" class = "col-12 col-sm-6 col-md-3">
-							<p>Introduction to TensorFlow for AI, ML & Deep Learning</p>
+							<p>Python Classes and Inheritance</p>
 						</div>
 					</a>
 				</div>
@@ -413,7 +449,7 @@ I communicated with the lead developer to give project updates.&nbsp; I was also
 			<a href="https://twitter.com/anega006" target="_blank">
 				<i class = "fa fa-twitter" aria-hidden="true"></i>
 			</a>
-			<a href="https://www.linkedin.com/in/anegamaheshwari" target="_blank">
+			<a href="https://www.linkedin.com/in/anega006" target="_blank">
 				<i class = "fa fa-linkedin" saria-hidden="true"></i>
 			</a>
 			<a href="https://github.com/anega006" target="_blank" >
